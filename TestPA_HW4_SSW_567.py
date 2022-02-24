@@ -7,7 +7,7 @@ class TestFetchGithubRepos(unittest.TestCase):
         with self.assertRaises(ValueError):
             fetchRepos("Triangle567")
         self.assertEqual(number_of_commits("prathyekareddy", "Triangle567"), 22)
-     def test_getHub_repo(self):
+    def test_getHub_repo(self):
         with self.assertRaises(ValueError):
             fetchRepos("SSW-567")
         self.assertEqual(number_of_commits("prathyekareddy", "SSW-567"), 4)
