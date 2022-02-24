@@ -36,7 +36,8 @@ def main():
 
     for repo in fetchRepos(user_name):
         num_of_commits = number_of_commits(user_name, repo)
-        print(f"Repo: {repo} Number of commits: {num_of_commits}")
+        return(f"Repo: {repo} Number of commits: {num_of_commits}")
+        #print(f"Repo: {repo} Number of commits: {num_of_commits}")
 
 if __name__ == '__main__':
     main()
