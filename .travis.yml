@@ -5,4 +5,4 @@ install:
   - pip install requests
 # command to run tests
 script:
-  - echo 'url'
+  - python -m unittest TestPA_HW4_SSW_567
