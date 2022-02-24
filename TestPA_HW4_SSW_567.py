@@ -10,4 +10,5 @@ class TestFetchGithubRepos(unittest.TestCase):
         self.assertEqual(number_of_commits("anshulkapoor018", "Restaurant-Ratings-Project"), 30)
 
 
-if __name__ == '__main_
+if __name__ == '__main__':
+    main()
